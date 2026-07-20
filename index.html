@@ -287,6 +287,13 @@
             font-size: 3rem;
             color: var(--text-light);
             border: 1px solid var(--border-color);
+            overflow: hidden;
+        }
+
+        .project-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         .project-info h3 {
@@ -394,7 +401,7 @@
                 height: 200px;
             }
             .nav-menu {
-                display: none; /* Sederhana untuk saat ini */
+                display: none;
             }
         }
     </style>
@@ -504,7 +511,7 @@
                 <!-- Project 1: Excel -->
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="lengan_robotik_data.png" alt="img1" style="max-width: 100%; height: auto;">
+                        <img src="lengan_robotik_data.png" alt="Inventory Optimization">
                     </div>
                     <div class="project-info">
                         <h3>Inventory Management Optimization</h3>
@@ -526,7 +533,7 @@
                 <!-- Project 2: Machine Learning -->
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="python.png" alt="img1" style="max-width: 100%; height: auto;">
+                        <img src="python.png" alt="Machine Learning Project">
                     </div>
                     <div class="project-info">
                         <h3>Optimasi Tren Menu Bestseller pada Jaringan Retail F&B Multinasional</h3>
@@ -538,8 +545,7 @@
                         <div class="star-method">
                             <div class="star-item"><strong>Situation:</strong> Tantangan standarisasi yang sangat besar serta biaya uji coba R&D yang tinggi. “Bagaimana melokalkan produk Global → Cita Rasa Lokal"</div>
                             <div class="star-item"><strong>Task:</strong> Membangun sistem klasifikasi prediktif untuk mendeteksi potensi penjualan terbaik dari sebuah menu.</div>
-                            <div class="star-item"><strong>Action:</strong> Mengembangkan model Random Forest Classifier untuk menganalisis data historis best seller menu.
-</div>
+                            <div class="star-item"><strong>Action:</strong> Mengembangkan model Random Forest Classifier untuk menganalisis data historis best seller menu.</div>
                             <div class="star-item"><strong>Result:</strong> Berhasil meningkatkan deteksi produk terlaris dengan menyeimbangkan distribusi data pelatihan.</div>
                         </div>
                         <a href="https://github.com/astiistiqomah-sketch/Optimasi-Tren-Menu-dan-Prediksi-Produk-Bestseller-pada-Jaringan-Perusahaan-Retail-F-B-Multinasional" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.9rem;">See Project <i class="fa-brands fa-github"></i></a>
@@ -549,7 +555,7 @@
                 <!-- Project 3: SQL -->
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="sql.png" alt="img1" style="max-width: 100%; height: auto;">
+                        <img src="sql.png" alt="SQL Project">
                     </div>
                     <div class="project-info">
                         <h3>Segmentasi Pelanggan: Akuisisi vs Retensi</h3>
@@ -564,14 +570,14 @@
                             <div class="star-item"><strong>Action:</strong> Menggunakan query SQL (Window Functions & CTEs) untuk menggabungkan nama kolom, membagi segmen NEW (first order 2025) vs LOYAL (first order sebelum 2025).</div>
                             <div class="star-item"><strong>Result:</strong> Memberikan kejelasan metrik retensi bulanan bagi manajemen untuk strategi pemasaran tertarget.</div>
                         </div>
-                        <a href="https://github.com/astiistiqomah-sketch/Segmentasi-Pelanggan-Akuisisi-vs-Retensi" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.9rem;">See Project<i class="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/astiistiqomah-sketch/Segmentasi-Pelanggan-Akuisisi-vs-Retensi" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.9rem;">See Project <i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
 
                 <!-- Project 4: Dashboard Power BI -->
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="https://astiistiqomah-sketch.github.io/portfoliodatanalyst/power_bi.png" alt="img1" style="max-width: 100%; height: auto;">
+                        <img src="power_bi.png" alt="Power BI Dashboard">
                     </div>
                     <div class="project-info">
                         <h3>Dashboard Comprehensive F&B Retail, Outlet Operational Optimization</h3>
@@ -581,12 +587,11 @@
                             <span>Time Study</span>
                         </div>
                         <div class="star-method">
-                            <div class="star-item"><strong>Situation:</strong>Kebutuhan monitoring outlet operasional bagi top management untuk level-up business</div>
+                            <div class="star-item"><strong>Situation:</strong> Kebutuhan monitoring outlet operasional bagi top management untuk level-up business</div>
                             <div class="star-item"><strong>Task:</strong> Membuat Dashboard comprehensive bagi tim Finance, Sales & Operasional, R&D, Marketing</div>
                             <div class="star-item"><strong>Action:</strong> Menghitung dan Mengoptimalkan kebutuhan staff operasional (fondasi utama)</div>
-                            <div class="star-item"><strong>Result:</strong> Staff Utilization 90% (optimal) </div>
-
-                          </div>
+                            <div class="star-item"><strong>Result:</strong> Staff Utilization 90% (optimal)</div>
+                        </div>
                         <a href="https://github.com/astiistiqomah-sketch/Coffe-Analyze_PowerBI" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.9rem;">See Project <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
@@ -605,8 +610,7 @@
             <a href="mailto:astiistiqomah20@gmail.com" class="btn btn-primary">Send Email <i class="fa-solid fa-paper-plane"></i></a>
             
             <div class="social-links">
-                <!-- ganti link ini dengan akun asli -->
-                <a href="https://linkedin.com/in/asti-istiqomah200697/"  target="_blank" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://linkedin.com/in/asti-istiqomah200697/" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href="https://github.com/astiistiqomah-sketch" target="_blank" class="social-icon"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
